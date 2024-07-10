@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+font-family: Azeret Mono; 
+}
+body p{
+   color: rgb(13, 19, 33);  
+ }
+ 
+.Nam-up{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.Nam-up .Nam-Nur{
+    font-size: 24px;
+    margin-left: 50px;
+}
+.Nam-btn{
+    width: 228px;
+    height: 58px;
+    background: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    margin-right: 50px;
+}
+.banner{
+    width: 1440px;
+    min-height: 652px;
+    margin: 0 auto;
+    background-image: url(./image/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.banner-bk .banner-in{
+    text-align: center;
+    background-size: cover;
+}
+.banner-in{
+   padding: 26px;;
+}
+.banner .banner-bk .dovoloper-text{
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.banner .banner-bk .banner-in .yes-text{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    line-height: 26px;
+}
+.banner .banner-bk .banner-in button{
+    position: static;
+    width: 208px;
+    height: 66px;
+    background-color:rgb(13, 19, 33);
+    color: rgb(229, 230, 235);
+    border-radius: 5px;
+    margin: 32px 0px;
+    font-size: 20px;
+}
+.section-all{
+    margin: 0 auto;
+    width: 1140px;
+    height: 1250px;
+    /* border: 2px solid red; */
+}
+
+.section-one{
+    margin-top: 74px;
+    text-align: center;
+}
+.section-all .section-one h1{
+    font-size: 32px;
+}
+.section-all button{
+    border: 1px solid rgb(13, 19, 33);
+    width: 150px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 45px;
+    padding: 12px 20px 12px 20px;
+    background: 1px	Inside
+    rgb(13, 19, 33);
+}
+.section-all h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.section-two{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+.I-Will{
+    width: 477px;
+    height: 220px;
+}
+.section-three{
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-Four{
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+.My-Inspiration{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Current-Target{
+    width: 1140px;
+    height: 1437px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.Next-Section{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+#HTML{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 8px ;
+    text-align:left ;
+    margin-right: 20px;
+    padding: 40px;
+}
+#CSS{
+    background-color: aliceblue;
+    border-radius: 8px ;
+    text-align:left ;
+    margin: right 20px;
+    padding: 40px;
+}
+#Js{
+    background-color: #fffdf2;
+    border-radius: 8px ;
+    text-align:left ;
+    margin-left: 20px;
+    padding: 40px;
+}
+#React{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+#React .Js{
+    text-align: left ;
+    margin: 2%;
+}
+#Node{
+    display: flex;
+   align-items: center;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+#Node .Js{
+    text-align: left ;
+    margin: 2%;
+}
+#Mongo{
+    display: flex;
+   align-items: center;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+#Mongo .DB{
+    text-align: left ;
+    margin: 2%;
+}
+.Current-Target button{
+    text-decoration-line: underline;
+    border:none;
+    background: none;
+    font-weight: bold;
+}
+   
+
+body p {
+    color:  rgb(13, 19, 33);
+    font-size: 16px;
+}
+.Current-Target h1{
+    font-size: 26px;
+}
+.footer-section{
+    width: 1140px;
+    height: 350px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(./image/handshake.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px  ;
+    margin-bottom: 5%;
+}
+.footer-section #last{
+    text-align: center;  
+}
+.footer-section #last h1{
+    size: 32px;
+    color: #fffdf2;
+    font-weight: bolder;
+    line-height: 45px;
+}
+.footer-section #last p{
+    font-size: 16px;
+    color: aliceblue;
+}
+.footer-section #last .last-text{
+    size: 30px;
+    width: 440px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+   background: rgb(255, 255, 255)
+}
+.last-button-footer {
+    font-size: 30px; 
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 110px;
+}
+#Commitment{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px 20px 40px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+   
